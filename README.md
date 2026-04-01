@@ -40,10 +40,10 @@ The project is organized into functional packages under `src/main/java/com.AML2A
    * **Using IDE:** Right-click `JwtDemoApplication.java` > **Run As** > **Spring Boot App**.
 
 ## 🌐 API Endpoints
-| Method | Endpoint | Description | Auth Required |
+| Method | Endpoint | Description |
 | :--- | :--- | :--- | :--- |
 | **POST** | `/api/login` | Authenticate user & receive JWT
-| **GET** | `/api/hello` | Fetch all students 
+| **GET** | `/api/hello` | Ensures its working
 ## 🧪 Testing the API
 1.  **Generate Token:** Send a POST request to the login endpoint with valid credentials.
 2.  **Access Protected Routes:** Include the received token in the header of your requests:
