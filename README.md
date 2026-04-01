@@ -42,12 +42,8 @@ The project is organized into functional packages under `src/main/java/com.AML2A
 ## 🌐 API Endpoints
 | Method | Endpoint | Description | Auth Required |
 | :--- | :--- | :--- | :--- |
-| **POST** | `/auth/login` | Authenticate user & receive JWT | No |
-| **GET** | `/api/students` | Fetch all students | **Yes** |
-| **POST** | `/api/students` | Add a new student | **Yes** |
-| **PUT** | `/api/students/{id}` | Update student details | **Yes** |
-| **DELETE** | `/api/students/{id}` | Remove a student | **Yes** |
-
+| **POST** | `/api/login` | Authenticate user & receive JWT
+| **GET** | `/api/hello` | Fetch all students 
 ## 🧪 Testing the API
 1.  **Generate Token:** Send a POST request to the login endpoint with valid credentials.
 2.  **Access Protected Routes:** Include the received token in the header of your requests:
